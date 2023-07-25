@@ -1,0 +1,21 @@
+Controller
+----------
+AdminController
+MerchantController
+CustomerController
+
+DTO
+---
+AdminDto (id,name,email,password)
+MerchantDto (id,name,email,password,phone,status,token, List<ProductsDto>)
+CustomerDto (id,name,email,password,phone,gender,token, List<ShoppingOrderDto>, List<AddressDto>, List<WishListDto>,CartDto)
+ProductDto (id,name,price,stock)
+CartDto (id, List<ItemsDto>)
+ItemsDto (id, name, price,quantity, Cart)
+ShoppingOrderDto(id, Customer, List<ItemsDto>, Adrress)
+WishListDto(id,name,
+
+
+
+
+
