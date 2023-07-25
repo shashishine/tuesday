@@ -1,0 +1,251 @@
+Definition:
+-----------
+
+Agile is an Iterative and Incremental Approach where requirements keep on changing , as a company we will be flexible enough to take up all the requirement changes, develop the changes , test the changes and give quality sw to customer within short span of time "This is called Agile".
+
+In agile  there will be good communication between Customers,BA, Developers and Test Engineers, where in if customer does any req changes we can directly 
+interact with the customer understand the changes, develop the changes and test the changes and give quality sw to customer within short span of time.
+       
+Main goal of Agile is customer satisfaction through "quick delivery of working piece of the software"
+
+Principles of Agile/Advantages:
+--------------------------------
+1) Customer can change the requirement at any stage
+ of developement.
+2) There will be a very good communication between
+ customer,BA,Developers and Test engineers.
+3) Release will/should be very short.
+4) Our Highest priority is customer satisfaction by quick 
+delivery of working piece of the  software.
+5) It is very simple model to follow
+6) Developers ,Test engineers and BA will be having
+ meeting very regulary it will be helpfull to improve the process.
+7) Teams will be self organized.
+8)convey the information via face to face conversations.
+
+Drawbacks of Agile:
+------------------
+1) For bigger and complex projects, it is difficult to do the effort estimation during the begining  of sw developement.
+2) Less scope for Design and Documentation.
+3) If customer is unware about the requirement, chances are there we might mess up the project.
+4) For Agile, Experience resources are required.
+
+
+Assignment:
+-----------
+1) what is difference between waterfall and Agile model ( 5 to 6 points)
+
+--> what is Agile Development?
+ Developing the s/w by following the principles of agile is called as Agile development.
+
+Types/flavours of Agile Models:
+-------------------------------
+1) Scrum Model----(70%)
+2) Extreme programming (XP)--(2%)
+3) Feature Driven Developement/Test driven Developement.(FDD)--(3%)
+4) Crystal clear.
+5) Lean and Kanban---(5%)
+6) DSDM (Dynamic System Developement Method)
+7) ASDM( Adaptive Sw Develeopemet Method)
+
+
+                                         Scrum Model/Scrum process:
+                                        ----------------------------
+definition:(what)
+-----------------
+Scrum Model is a standard proceedure/ step by step procedure/Framework which helps team to work together and develop a new Software.
+
+Agile Terminologies:
+--------------------
+Release: 
+Combination of sprints is called as 'Release' 
+
+(Starting from gathering the requirements followed by developing the sw and testing sw for many cycles and deploy sw into production server is called Release.
+
+Epic:  
+------
+Complete set of requirement is called as Epic.  Epic will be created by Scrum Master or BA
+in project management tool called 'Jira'.
+
+
+Story/User Story/ Story card
+------------------------------
+Stories are nothing but features/Modules/Functionalities.
+One Epic can consist of multiple stories.
+
+Story point:
+-------------
+Story point is a rough estimation given by Developers and Test engineers to develop and test
+every individual stories.
+
+Based on what TestingTeam will give estimation for the story:
+-------------------------------------------------------------
+
+Time taken to understand the requirement
++
+Time taken to write test scenarios
++
+Time taken to write Test cases
++
+Time taken to Review test cases
++
+Time taken for Test Execution
++
+Time Taken for Defect Tracking
+
+
+
+Based on what Developement Team will give estimation for the story:
+-----------------------------------------------------------------
+Time taken to understand the requirement
++
+Time taken to do the Design
++
+Time Taken to write the code
++
+Time Taken to do WBT
++ 
+Time Taken to do Code Review
++
+Time Taken to Fix the defect.
+
+Swag:
+----
+Swag is a rough estimation given by Developers and Test engineers to develop and test
+every individual stories in the form of hours.
+
+Sprint:
+-------
+It is the actual time spent by Developers and Test engineers to develop and test one or more
+stories.
+
+
+what are the meetings/Scrum Ceremonies done in Scrum model?
+
+Scrum Meetings/Scrum Ceremonies
+-------------------------------
+
+Sprint Planning: (Who conduct meeting, when, Who will be present, What they do in meeting)
+----------------
+
+It is a meeting conducted by the Scrum Master on the first day of every sprint.
+
+BA, Developers,Test Engineers, Scrum master will be present in the meeting.
+
+BA will explain the complete requirement to the entire team, where in BA will explain how each and every feature should work and also BA explains the 
+customer business workflows to the entire team. Scrum master will prioritize the stories from customer business point of view and scrum master will 
+assign the stories to developers and test engineers based on their availability.Scrum master will calculate the available hours of every individual engineers 
+in this meeting.
+
+Scrum master/product owner:
+---------------------------
+
+Scrum master is a  person who is responsible for delivery of the sw to the customers in the
+planned period of time. Scrum master will track each and every activities done by the 
+Developers, Test engineers and BA. Scrum master will be mainly working on project management tool like Jira, where in scrum master will create Epic 
+for the requirement, create stories for the Epic and create Tasks for the stories and assign the task to every individual engineers.
+
+who can become scrum master
+
+Answer: Sr TE, Sr Dev, BA, PM and customer (some times) can become scrum master.
+
+
+Scrum Meeting:/Daily Standup meeting(Who will conduct,when,Who will be present, What they do in meeting)
+------------------------------------- -------------------------------------------
+It is a meeting conducted by the scrum master on daily basis. This meeting will be strictly bounded for '15' minutes. 
+BA, Dev, TE, PM (some times) and scrum master
+In this meeting we discuss below mentioned 3 points
+
+1)What did you do Yesterday?
+2)What will you do Today?
+3)Are there any Obstacles or Impediments?
+
+
+
+Sprint Retrospective Meeting:
+-----------------------------
+It is the meeting conducted by the Scrum master on the last day of the sprint.
+BA,Dev,TE ,pm (some times) and scrum master will be part of the meeting.
+In this meeting we discuss below mentioned points
+
+1) what went well ( Achievement)
+2) what didn't go well (Mistakes)
+3) what are the Action Plans.
+
+
+Release Retrospective Meeting:
+-----------------------------
+It is the meeting conducted by the Scrum master on the last day of the Release.
+BA,Dev,TE ,pm (some times) and scrum master will be part of the meeting.
+
+In this meeting we discuss below mentioned points
+1) what went well
+2) what didn't go well
+3) what are the Action Plans.
+
+Bug Triaging or defect triage meeting:
+--------------------------------------
+It is the meeting conducted by the TE or BA or Scrum master a week before the Release or few days before the sprint.
+Dev,TE, BA and scrum master wll be present in this meeting.
+In this meeting we collect list of all the pending and open defects which are not fixed by developers in current and previous releases/Sprints, 
+Team will Re prioritize  the defects from customer business point of view and  decide which bugs should be fixed in current Release/Sprint and which
+bugs can be moved to the upcoming Release/Sprint. This is called Bug Triage Meeting.
+
+
+Product Backlog grooming/Meeting or Sprint backlog Grooming/Sprint Review
+--------------------------------------------------------------------------
+It is the meeting conducted by the Scrum master a week before the release or few days before the sprint.
+BA,DevTeam,TE Team and scrum master will be present in this meeting.
+Here Entire team will gather list of pending stories which are not implemented  in the current Release/Sprint , 
+As a team we will Re prioritize the stories from customer business point of view and we will decide which story should be developed in current Release/Sprint 
+and which stories should be moved to the upcomming release/Sprint this is called Product Backlog grooming or  Sprint backlog Grooming.
+
+Bug Bucket:
+------------
+It is an Epic or story created by the scrum master or BA in the project management Tool Jira.
+This Bug Bucket will be handled as a part of every Release.
+Bug Bucket consist of list of all the pending defects which are not fixed by the developers.
+
+what is 'CHICKEN' and what is 'PIG'
+In Agile----> 'CHICKEN' and what is 'PIG'(both are the words used for scrum team members)
+PIG: Pigs are the scrum team members. These are the people who are committed to the project , work on the project and complete all 
+the tasks in the given period of time.
+Example: TE, DEV, Scrum Master, BA etc....
+
+
+Chickens: 
+Chickens are the people who get the business to the company and get the work done 
+from the team members.
+Example: Management Team, Customers, Stake holders etc.... 
+
+
+Zero sprint:
+------------
+Zero Sprint is a pre planning sprint to get ready for the Actual Sprint.
+
+ex: Deciding which technology, Infrastructure, System configuration.
+
+Spike:
+------
+Spike is also an issue, where as spike cannot be treated as a story because of lack of clarity on the given task. ( Still Investigation needs to be done)
+
+Diagram for Agile Model/Scrum or Process for Agile:
+-----------------------------------------------------
+Note :( Process will change from company to company and from project to project)
+
+Burn down chart:
+--------------
+This chart is used to calculate total amount of work remaining in the beginning of every 
+Sprint.
+This chart will be prepared by scrum master to check the progress of the project by using
+tool called Jira.
+
+Burn up Chart:
+---------------
+This chart is used to calculate total amount of work completed at the end of the every sprint.
+
+what is velocity and capacity in Agile?
+capacity: Total amount of available hours of every individual engineers for the given sprint is called as capacity (100 hours)
+velocity: Total amount of work completed by every individual engineers in the given sprint is called as velocity (95 hrs)
+           or
+velocity is the measurement of average amount of story points delivered to the customer in the given sprint.
